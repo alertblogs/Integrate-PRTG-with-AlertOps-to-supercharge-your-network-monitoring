@@ -1,40 +1,25 @@
-AlertOps Expert Guidance
+Integrate PRTG with AlertOps to supercharge your network monitoring
 ========
+PRTG is a central component of network monitoring. It’s used to monitor the state, health, and performance of everything from servers to network devices. PRTG Network Monitor is an all-in-one monitoring solution that collects and displays current status information from your IT infrastructure.
 
- 
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+However, PRTG focuses only on monitoring for incidents, so you know when there’s a problem. It’s an outstanding, specialized tool. That’s why AlertOps works so well with PRTG. PRTG knows when something is wrong, and AlertOps uses that information to help you respond to and resolve incidents faster.
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+Integrating AlertOps with PRTG enables you to receive, respond to, and communicate during critical alerts using email, SMS, push notifications, and phone alerts. So alerts from PRTG always reach the right team members, based on your escalation policies and on-call schedules.
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
+AlertOps and PRTG integration enables you to:
 
-Automate Processes
-====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+    Automatically create an incident when PRTG sends an alert with an Incident Status of “Down,” for faster incident response and fewer administrative tasks your team has to handle.
+    Recognize the new alert as a duplicate, and ignore it if the “Down” status alert matches an existing Open Alert. This way your team stays sharp by minimizing alert fatigue.
+    Record the alert in the Inbound Messages table as “Mapped Appended,” so you know when alerts have been escalated according to policy.
+    Automatically close the same incident when an alert with an Incident Status status “Up” is received, so your teams can get back to business as usual faster.
 
-Clarity
-====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+Get faster, more efficient incident response and communication by integrating AlertOps into your current technology stack without any external plugins or widgets. Simply use our Generic REST API to get AlertOps running with your current tools, and eliminate redundant tasks and inefficient administration.
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
-
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
-
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
-
-1 Red Canary 2021 Threat Detection Report
+Check out our help center to learn more about how AlertOps improves the capabilities of over 50 of the top third party integrations from monitoring systems to service desk and chat tools, and find out about our Outbound Services, Workflows, Message Rules, Custom Fields, and our Generic REST API
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/alertops-and-prtg-integration/
 
 Read more:
 ====
@@ -44,6 +29,7 @@ https://alertops.com/major-outage-black-friday/
 https://alertops.com/prediction-ai-itsm/
 https://alertops.com/msp-cyber-attack/
 https://alertops.com/msp-tools/
+
 https://alertops.com/it-service-metrics/
 https://alertops.com/five-more-reasons/
 https://alertops.com/opsgenie-alternative/
